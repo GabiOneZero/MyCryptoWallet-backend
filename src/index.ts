@@ -2,6 +2,7 @@ import express, { Express, Request, Response } from 'express';
 import dotenv from 'dotenv';
 import userRouter from "./routers/user.routes"
 import currencyRouter from "./routers/currency.routes"
+import Logger from './utils/logs.utils';
 
 dotenv.config();
 
@@ -18,7 +19,7 @@ app.get('/ping', (_req: Request, res: Response) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`⚡️ [SERVER]: Server is running at http://localhost:${PORT} ⚡️`);
+  Logger.info(`⚡️ [SERVER]: Server is running at http://localhost:${PORT} ⚡️`);
 });
 
 app.use('/api/user', userRouter)
