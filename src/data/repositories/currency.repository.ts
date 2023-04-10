@@ -1,5 +1,6 @@
 import { CurrencyPojo } from "../models/currency.model";
 import { connect } from "../config/currency.db.config"
+import logger from "../../utils/logs.utils";
 
 export class CurrencyRepository{
     _database : any = {}
@@ -15,7 +16,7 @@ export class CurrencyRepository{
             newCurrency = await this._currencyRepository.create(newCurrency)
             return newCurrency.id            
         } catch (error) {
-            console.error(error)
+            logger.error(error)
             return -1
         }
     }
@@ -24,7 +25,7 @@ export class CurrencyRepository{
         try { 
             return await this._currencyRepository.findAll()
         } catch (error) {
-            console.error(error)
+            logger.error(error)
             return []
         }
     } 
@@ -33,7 +34,7 @@ export class CurrencyRepository{
         try {
             return await this._currencyRepository.findByPk(id)
         } catch (error) {
-            console.error(error)
+            logger.error(error)
             return undefined
         }
     }
@@ -47,7 +48,7 @@ export class CurrencyRepository{
             }); 
             return newCurrencyToUpdate.currencyId
          } catch (error) { 
-            console.error(error) 
+            logger.error(error) 
             return error.toString() 
         } 
     }  

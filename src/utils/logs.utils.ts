@@ -40,10 +40,10 @@ const transports = [
         }), 
 ] 
 
-const Logger = winston.createLogger({ 
+const logger = winston.createLogger({ 
     levels: levels, 
     transports: transports, 
     format: winston.format.combine(winston.format.metadata(), winston.format.timestamp({ format: "DD/MM/YYYY - HH:mm:ss"})), 
 }) 
         
-export default Logger
+export default logger

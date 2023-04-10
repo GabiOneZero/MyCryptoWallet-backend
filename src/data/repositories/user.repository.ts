@@ -1,6 +1,7 @@
 import { UserPojo } from "../models/user.model";
 import { connect } from "../config/user.db.config"
 import { WalletPojo } from "../models/wallet.model";
+import logger from "../../utils/logs.utils";
 
 export class UserRepository{
     _database : any = {}
@@ -18,7 +19,7 @@ export class UserRepository{
             newUser = await this._userRepository.create(newUser)
             return newUser.id            
         } catch (error) {
-            console.error(error)
+            logger.error(error)
             return error.name
         }
     }
@@ -27,7 +28,7 @@ export class UserRepository{
         try { 
             return await this._userRepository.findAll()
         } catch (error) {
-            console.error(error)
+            logger.error(error)
             return []
         }
     } 
@@ -36,7 +37,7 @@ export class UserRepository{
         try {
             return await this._userRepository.findByPk(id)
         } catch (error) {
-            console.error(error)
+            logger.error(error)
             return undefined
         }
     }
@@ -46,7 +47,7 @@ export class UserRepository{
             return await this._userRepository.findAll({
                 where: {username: username}})
         } catch (error) {
-            console.error(error)
+            logger.error(error)
             return undefined
         }
     }
@@ -60,7 +61,7 @@ export class UserRepository{
             }); 
             return "Succesfully Update"
          } catch (error) { 
-            console.error(error) 
+            logger.error(error) 
             return error.toString() 
         } 
     }    
@@ -81,9 +82,11 @@ export class UserRepository{
                     currencyId: walletToUpdate.currencyId 
                 } 
             })
+            logger.info("Wallet Updated")
             return "Updated"
         } else {
             this._walletRepository.create(walletToUpdate)
+            logger.info("Wallet Created")
             return "Created"
         }
     }

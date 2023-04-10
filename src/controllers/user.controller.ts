@@ -1,4 +1,5 @@
 import { parseInputWalletIntoDTO } from "../utils/functions.utils"
+import logger from "../utils/logs.utils"
 import { UserService } from "./../services/user.service"
 
 const userService: UserService = new UserService()
@@ -11,7 +12,7 @@ export const userController = {
 				res.json(result)
 			})
 		} catch (error) {
-			console.log(error)
+			logger.error(error)
 			res.sendStatus(500)
 		}
 	},
@@ -22,8 +23,8 @@ export const userController = {
 				res.json(result)
 			})
 			.catch((error) => {
-				console.log("Se ha producido un error")
-				console.log(error)
+				logger.warn("Se ha producido un error")
+				logger.error(error)
 				res.sendStatus(500)
 			})
 	},
@@ -35,20 +36,20 @@ export const userController = {
 				res.json(result)
 			})
 		} catch (error) {
-			console.log(error)
+			logger.error(error)
 			res.sendStatus(500)
 		}
 	},
 	getUserByUsername: (req: any, res: any) => {
 		try {
 			const username = req.params.username
-			console.log("<<<HELLO>>> " + username)
+			logger.info("<<<HELLO>>> " + username)
 			userService.getUserByName(username)
             .then((result) => {
 				res.json(result)
 			})
 		} catch (error) {
-			console.log(error)
+			logger.error(error)
 			res.sendStatus(500)
 		}
 	},
@@ -59,7 +60,7 @@ export const userController = {
 				res.json(result)
 			})
 		} catch (error) {
-			console.log(error)
+			logger.error(error)
 			res.sendStatus(500)
 		}
 	},
@@ -71,7 +72,7 @@ export const userController = {
 				res.json(result)
 			})
 		} catch (error) {
-			console.log(error)
+			logger.error(error)
 			res.sendStatus(500)
 		}
 	},

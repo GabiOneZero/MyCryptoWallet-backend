@@ -1,3 +1,4 @@
+import logger from "../utils/logs.utils"
 import { CurrencyService } from "./../services/currency.service"
 
 const currencyService: CurrencyService = new CurrencyService()
@@ -10,7 +11,7 @@ export const currencyController = {
 				res.json(result)
 			})
 		} catch (error) {
-			console.log(error)
+			logger.error(error)
 			res.sendStatus(500)
 		}
 	},
@@ -21,8 +22,8 @@ export const currencyController = {
 				res.json(result)
 			})
 			.catch((error) => {
-				console.log("Se ha producido un error")
-				console.log(error)
+				logger.warn("Se ha producido un error")
+				logger.error(error)
 				res.sendStatus(500)
 			})
 	},
@@ -34,7 +35,7 @@ export const currencyController = {
 				res.json(result)
 			})
 		} catch (error) {
-			console.log(error)
+			logger.error(error)
 			res.sendStatus(500)
 		}
 	},
@@ -45,7 +46,7 @@ export const currencyController = {
 				res.json(result)
 			})
 		} catch (error) {
-			console.log(error)
+			logger.error(error)
 			res.sendStatus(500)
 		}
 	},
