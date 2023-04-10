@@ -1,13 +1,14 @@
 import { Sequelize } from "sequelize-typescript"
 import { CurrencyPojo } from "../models/currency.model"
 import { WalletPojo } from "../models/wallet.model"
+import { UserPojo } from "../models/user.model"
 
 export const connect = () => {
     const DB_HOSTNAME = 'localhost'
     const DB_PORT = 5432
     const DB_NAME = 'MCW_db'
     const DB_USERNAME = 'admin'
-    const DB_PASSWORD = '0123456'
+    const DB_PASSWORD = 'Admin1234'
     const DB_SCHEMA = 'mcw'
     const DB_DIALECT : any = 'postgres'  
 
@@ -25,7 +26,7 @@ export const connect = () => {
         }
     })
 
-    dbConfig.addModels([CurrencyPojo, WalletPojo])
+    dbConfig.addModels([CurrencyPojo, WalletPojo, UserPojo])
 
     const db : any = {}
     db.Sequelize = Sequelize

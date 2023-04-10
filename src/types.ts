@@ -1,4 +1,4 @@
-export class UserDto {
+export class UserDTO {
 	userId: string
     username: string
     fullname: string
@@ -7,13 +7,13 @@ export class UserDto {
     balance: number
 }
 
-export class WalletDto{
+export class WalletDTO{
     userId: string
     currencyId: string
     amount: number
 }
 
-export class CurrencyDto{
+export class CurrencyDTO{
     currencyId: string
     currencyName: string
     value: number
@@ -21,6 +21,6 @@ export class CurrencyDto{
     icon: string
 }
 
-export type NewUserDto = Omit<UserDto, 'userId'>
-export type NewWalletDto = Omit<WalletDto, 'walletId'>
-export type NewCurrencyDto = Omit<CurrencyDto, 'currencyId'>
+export type NewUserDTO = Omit<UserDTO, 'userId'>
+export type NewWalletDTO = Omit<WalletDTO, 'walletId'>
+export type NewCurrencyDTO = Omit<CurrencyDTO, 'currencyId'>

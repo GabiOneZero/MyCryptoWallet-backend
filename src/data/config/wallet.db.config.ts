@@ -8,7 +8,7 @@ export const connect = () => {
     const DB_PORT = 5432
     const DB_NAME = 'MCW_db'
     const DB_USERNAME = 'admin'
-    const DB_PASSWORD = '0123456'
+    const DB_PASSWORD = 'Admin1234'
     const DB_SCHEMA = 'mcw'
     const DB_DIALECT : any = 'postgres' 
 

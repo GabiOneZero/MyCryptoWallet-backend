@@ -5,7 +5,7 @@ import { WalletPojo } from './wallet.model';
 
 @Table ({    
     tableName: 'currencies',
-    schema: 'bootcamp_schema',
+    schema: 'mcw',
     freezeTableName: true,
     createdAt: false,
     updatedAt: false

@@ -5,7 +5,7 @@ import { UserPojo } from './user.model';
 
 @Table ({    
     tableName: 'wallets',
-    schema: 'bootcamp_schema',
+    schema: 'mcw',
     freezeTableName: true,
     createdAt: false,
     updatedAt: false
