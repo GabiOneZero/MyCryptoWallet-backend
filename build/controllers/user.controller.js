@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.userController = void 0;
+const functions_utils_1 = require("../utils/functions.utils");
 const user_service_1 = require("./../services/user.service");
 const userService = new user_service_1.UserService();
 exports.userController = {
@@ -69,7 +70,7 @@ exports.userController = {
     },
     updateWallet: (req, res) => {
         try {
-            const walletToUpdate = parseInputWalletIntoDTO(req.body);
+            const walletToUpdate = (0, functions_utils_1.parseInputWalletIntoDTO)(req.body);
             userService.updateWallet(walletToUpdate).then((result) => {
                 res.json(result);
             });
@@ -79,12 +80,4 @@ exports.userController = {
             res.sendStatus(500);
         }
     },
-};
-const parseInputWalletIntoDTO = (newWallet) => {
-    const newWalletDTO = {
-        userId: newWallet.userId,
-        currencyId: newWallet.curremcyId,
-        amount: newWallet.amount
-    };
-    return newWalletDTO;
 };

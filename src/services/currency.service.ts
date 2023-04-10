@@ -59,13 +59,4 @@ export class CurrencyService {
         })
         return currencyPromise
     }
-
-    parsePojoIntoDTO(currencyPojo : CurrencyPojo) : CurrencyDTO{
-        return currencyPojo as CurrencyDTO
-    }
-
-    parseDTOIntoPojo(currencyDTO : NewCurrencyDTO) : CurrencyPojo{
-
-        return currencyDTO as CurrencyPojo
-    }
 }

@@ -71,11 +71,5 @@ class CurrencyService {
             return currencyPromise;
         });
     }
-    parsePojoIntoDTO(currencyPojo) {
-        return currencyPojo;
-    }
-    parseDTOIntoPojo(currencyDTO) {
-        return currencyDTO;
-    }
 }
 exports.CurrencyService = CurrencyService;

@@ -1,4 +1,4 @@
-import { WalletDTO } from "../types"
+import { parseInputWalletIntoDTO } from "../utils/functions.utils"
 import { UserService } from "./../services/user.service"
 
 const userService: UserService = new UserService()
@@ -77,11 +77,4 @@ export const userController = {
 	},
     
 }
-    const parseInputWalletIntoDTO = (newWallet: any) : WalletDTO => {
-        const newWalletDTO : WalletDTO = {
-            userId: newWallet.userId,
-            currencyId: newWallet.curremcyId,
-            amount: newWallet.amount
-        }
-        return newWalletDTO
-    }
+    

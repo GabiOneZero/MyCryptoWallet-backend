@@ -2,6 +2,7 @@ import { NewUserDTO, NewWalletDTO, UserDTO } from "../types"
 import { UserRepository } from "../data/repositories/user.repository"
 import { UserPojo } from "../data/models/user.model"
 import { WalletPojo } from "../data/models/wallet.model"
+import { parseUserDTOIntoPojo, parseUserPojoIntoDTO, parseWalletDTOIntoPojo } from "../utils/functions.utils"
 
 export class UserService {
     _userRepository : UserRepository
@@ -11,7 +12,7 @@ export class UserService {
     }
 
     async addUser(user: NewUserDTO) : Promise<string> {
-        const userPojo : UserPojo = this.parseDTOIntoPojo(user)
+        const userPojo : UserPojo = parseUserDTOIntoPojo(user)
         const userPromise = await this._userRepository.addUser(userPojo).then(userId => {
             return userId
         }).catch(error =>{
@@ -25,7 +26,7 @@ export class UserService {
         const usersPromise = await this._userRepository.getAllUser().then(usersAsPojo => {
             let usersAsDTO : UserDTO[] = []
             usersAsPojo.forEach(userAsPojo =>{
-                let userAsDTO = this.parsePojoIntoDTO(userAsPojo)
+                let userAsDTO = parseUserPojoIntoDTO(userAsPojo)
                 usersAsDTO.push(userAsDTO)
             })
             return usersAsDTO
@@ -39,7 +40,7 @@ export class UserService {
     async getUserById(id: string) : Promise<UserDTO | undefined> {
         const userPromise = await this._userRepository.getUserById(id).then(userAsPojo =>{
             if (!!userAsPojo) {
-                return this.parsePojoIntoDTO(userAsPojo)
+                return parseUserPojoIntoDTO(userAsPojo)
             }else{
                 return undefined
             }
@@ -53,7 +54,7 @@ export class UserService {
     async getUserByName(username: string) : Promise<UserDTO | undefined> {
         const userPromise = await this._userRepository.getUserByUsername(username).then(userAsPojo =>{
             if (!!userAsPojo) {
-                return this.parsePojoIntoDTO(userAsPojo)
+                return parseUserPojoIntoDTO(userAsPojo)
             }else{
                 return undefined
             }
@@ -65,7 +66,7 @@ export class UserService {
     }
 
     async updateUser(userUpdated: NewUserDTO) : Promise<string> {
-        const userPojo : UserPojo = this.parseDTOIntoPojo(userUpdated)
+        const userPojo : UserPojo = parseUserDTOIntoPojo(userUpdated)
         const userPromise = await this._userRepository.updateUser(userPojo).then(userId => {
             return userId
         }).catch(error =>{
@@ -76,7 +77,7 @@ export class UserService {
     }
 
     async updateWallet(walletUpdated: NewWalletDTO) : Promise<string> {
-        const walletPojo : WalletPojo = this.parseWalletDTOIntoPojo(walletUpdated)
+        const walletPojo : WalletPojo = parseWalletDTOIntoPojo(walletUpdated)
         const walletPromise = await this._userRepository.updateWallet(walletPojo).then(walletId => {
             return walletId
         }).catch(error =>{
@@ -84,17 +85,5 @@ export class UserService {
             throw error
         })
         return walletPromise
-    }
-
-    parsePojoIntoDTO(userPojo : UserPojo) : UserDTO {
-        return userPojo as UserDTO
-    }
-
-    parseDTOIntoPojo(userDTO : NewUserDTO) : UserPojo {
-        return userDTO as UserPojo
-    }
-
-    parseWalletDTOIntoPojo(walletDTO : NewWalletDTO) : WalletPojo {
-        return walletDTO as WalletPojo
     }
 }

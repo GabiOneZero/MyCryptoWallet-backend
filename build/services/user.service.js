@@ -11,13 +11,14 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.UserService = void 0;
 const user_repository_1 = require("../data/repositories/user.repository");
+const functions_utils_1 = require("../utils/functions.utils");
 class UserService {
     constructor() {
         this._userRepository = new user_repository_1.UserRepository();
     }
     addUser(user) {
         return __awaiter(this, void 0, void 0, function* () {
-            const userPojo = this.parseDTOIntoPojo(user);
+            const userPojo = (0, functions_utils_1.parseUserDTOIntoPojo)(user);
             const userPromise = yield this._userRepository.addUser(userPojo).then(userId => {
                 return userId;
             }).catch(error => {
@@ -32,7 +33,7 @@ class UserService {
             const usersPromise = yield this._userRepository.getAllUser().then(usersAsPojo => {
                 let usersAsDTO = [];
                 usersAsPojo.forEach(userAsPojo => {
-                    let userAsDTO = this.parsePojoIntoDTO(userAsPojo);
+                    let userAsDTO = (0, functions_utils_1.parseUserPojoIntoDTO)(userAsPojo);
                     usersAsDTO.push(userAsDTO);
                 });
                 return usersAsDTO;
@@ -47,7 +48,7 @@ class UserService {
         return __awaiter(this, void 0, void 0, function* () {
             const userPromise = yield this._userRepository.getUserById(id).then(userAsPojo => {
                 if (!!userAsPojo) {
-                    return this.parsePojoIntoDTO(userAsPojo);
+                    return (0, functions_utils_1.parseUserPojoIntoDTO)(userAsPojo);
                 }
                 else {
                     return undefined;
@@ -63,7 +64,7 @@ class UserService {
         return __awaiter(this, void 0, void 0, function* () {
             const userPromise = yield this._userRepository.getUserByUsername(username).then(userAsPojo => {
                 if (!!userAsPojo) {
-                    return this.parsePojoIntoDTO(userAsPojo);
+                    return (0, functions_utils_1.parseUserPojoIntoDTO)(userAsPojo);
                 }
                 else {
                     return undefined;
@@ -77,7 +78,7 @@ class UserService {
     }
     updateUser(userUpdated) {
         return __awaiter(this, void 0, void 0, function* () {
-            const userPojo = this.parseDTOIntoPojo(userUpdated);
+            const userPojo = (0, functions_utils_1.parseUserDTOIntoPojo)(userUpdated);
             const userPromise = yield this._userRepository.updateUser(userPojo).then(userId => {
                 return userId;
             }).catch(error => {
@@ -89,7 +90,7 @@ class UserService {
     }
     updateWallet(walletUpdated) {
         return __awaiter(this, void 0, void 0, function* () {
-            const walletPojo = this.parseWalletDTOIntoPojo(walletUpdated);
+            const walletPojo = (0, functions_utils_1.parseWalletDTOIntoPojo)(walletUpdated);
             const walletPromise = yield this._userRepository.updateWallet(walletPojo).then(walletId => {
                 return walletId;
             }).catch(error => {
@@ -98,15 +99,6 @@ class UserService {
             });
             return walletPromise;
         });
-    }
-    parsePojoIntoDTO(userPojo) {
-        return userPojo;
-    }
-    parseDTOIntoPojo(userDTO) {
-        return userDTO;
-    }
-    parseWalletDTOIntoPojo(walletDTO) {
-        return walletDTO;
     }
 }
 exports.UserService = UserService;
