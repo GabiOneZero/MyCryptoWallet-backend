@@ -8,10 +8,14 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CurrencyRepository = void 0;
 const currency_model_1 = require("../models/currency.model");
 const currency_db_config_1 = require("../config/currency.db.config");
+const logs_utils_1 = __importDefault(require("../../utils/logs.utils"));
 class CurrencyRepository {
     constructor() {
         this._database = {};
@@ -25,7 +29,7 @@ class CurrencyRepository {
                 return newCurrency.id;
             }
             catch (error) {
-                console.error(error);
+                logs_utils_1.default.error(error);
                 return -1;
             }
         });
@@ -36,7 +40,7 @@ class CurrencyRepository {
                 return yield this._currencyRepository.findAll();
             }
             catch (error) {
-                console.error(error);
+                logs_utils_1.default.error(error);
                 return [];
             }
         });
@@ -47,7 +51,7 @@ class CurrencyRepository {
                 return yield this._currencyRepository.findByPk(id);
             }
             catch (error) {
-                console.error(error);
+                logs_utils_1.default.error(error);
                 return undefined;
             }
         });
@@ -63,7 +67,7 @@ class CurrencyRepository {
                 return newCurrencyToUpdate.currencyId;
             }
             catch (error) {
-                console.error(error);
+                logs_utils_1.default.error(error);
                 return error.toString();
             }
         });

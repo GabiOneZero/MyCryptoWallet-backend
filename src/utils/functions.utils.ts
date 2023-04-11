@@ -24,10 +24,10 @@ export const parseInputWalletIntoDTO = (newWallet: any) : WalletDTO => {
         return newWalletDTO
 }
 
-export const parsePojoIntoDTO = (currencyPojo : CurrencyPojo) : CurrencyDTO => {
+export const parseCurrencyPojoIntoDTO = (currencyPojo : CurrencyPojo) : CurrencyDTO => {
     return currencyPojo as CurrencyDTO
 }
 
-export const parseDTOIntoPojo = (currencyDTO : NewCurrencyDTO) : CurrencyPojo => {
+export const parseCurrencyDTOIntoPojo = (currencyDTO : NewCurrencyDTO) : CurrencyPojo => {
     return currencyDTO as CurrencyPojo
 }

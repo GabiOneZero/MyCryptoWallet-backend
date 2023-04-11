@@ -7,7 +7,7 @@ const user_controller_1 = require("./../controllers/user.controller");
 const express_1 = __importDefault(require("express"));
 const router = express_1.default.Router();
 router.post('/add', user_controller_1.userController.addUser);
-router.get('/all', user_controller_1.userController.getAllUser);
+router.get('/get/all', user_controller_1.userController.getAllUser);
 router.get('/get/:id', user_controller_1.userController.getUserById);
 router.get('/getbyname/:username', user_controller_1.userController.getUserByUsername);
 router.put('/update', user_controller_1.userController.updateUser);

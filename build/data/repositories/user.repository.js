@@ -8,11 +8,15 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.UserRepository = void 0;
 const user_model_1 = require("../models/user.model");
 const user_db_config_1 = require("../config/user.db.config");
 const wallet_model_1 = require("../models/wallet.model");
+const logs_utils_1 = __importDefault(require("../../utils/logs.utils"));
 class UserRepository {
     constructor() {
         this._database = {};
@@ -27,7 +31,7 @@ class UserRepository {
                 return newUser.id;
             }
             catch (error) {
-                console.error(error);
+                logs_utils_1.default.error(error);
                 return error.name;
             }
         });
@@ -38,7 +42,7 @@ class UserRepository {
                 return yield this._userRepository.findAll();
             }
             catch (error) {
-                console.error(error);
+                logs_utils_1.default.error(error);
                 return [];
             }
         });
@@ -49,7 +53,7 @@ class UserRepository {
                 return yield this._userRepository.findByPk(id);
             }
             catch (error) {
-                console.error(error);
+                logs_utils_1.default.error(error);
                 return undefined;
             }
         });
@@ -62,7 +66,7 @@ class UserRepository {
                 });
             }
             catch (error) {
-                console.error(error);
+                logs_utils_1.default.error(error);
                 return undefined;
             }
         });
@@ -78,7 +82,7 @@ class UserRepository {
                 return "Succesfully Update";
             }
             catch (error) {
-                console.error(error);
+                logs_utils_1.default.error(error);
                 return error.toString();
             }
         });
@@ -100,10 +104,12 @@ class UserRepository {
                         currencyId: walletToUpdate.currencyId
                     }
                 });
+                logs_utils_1.default.info("Wallet Updated");
                 return "Updated";
             }
             else {
                 this._walletRepository.create(walletToUpdate);
+                logs_utils_1.default.info("Wallet Created");
                 return "Created";
             }
         });

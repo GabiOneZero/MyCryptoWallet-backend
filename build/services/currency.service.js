@@ -11,13 +11,14 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CurrencyService = void 0;
 const currency_repository_1 = require("../data/repositories/currency.repository");
+const functions_utils_1 = require("../utils/functions.utils");
 class CurrencyService {
     constructor() {
         this._currencyRepository = new currency_repository_1.CurrencyRepository();
     }
     addCurrency(currency) {
         return __awaiter(this, void 0, void 0, function* () {
-            const currencyPojo = this.parseDTOIntoPojo(currency);
+            const currencyPojo = (0, functions_utils_1.parseCurrencyDTOIntoPojo)(currency);
             const currencyPromise = yield this._currencyRepository.addCurrency(currencyPojo).then(currencyId => {
                 return currencyId;
             }).catch(error => {
@@ -32,7 +33,7 @@ class CurrencyService {
             const currenciesPromise = yield this._currencyRepository.getAllCurrencies().then(currenciesAsPojo => {
                 let currenciesAsDTO = [];
                 currenciesAsPojo.forEach(currencyAsPojo => {
-                    let currencyAsDTO = this.parsePojoIntoDTO(currencyAsPojo);
+                    let currencyAsDTO = (0, functions_utils_1.parseCurrencyPojoIntoDTO)(currencyAsPojo);
                     currenciesAsDTO.push(currencyAsDTO);
                 });
                 return currenciesAsDTO;
@@ -47,7 +48,7 @@ class CurrencyService {
         return __awaiter(this, void 0, void 0, function* () {
             const currencyPromise = yield this._currencyRepository.getCurrencyById(id).then(currencyAsPojo => {
                 if (!!currencyAsPojo) {
-                    return this.parsePojoIntoDTO(currencyAsPojo);
+                    return (0, functions_utils_1.parseCurrencyPojoIntoDTO)(currencyAsPojo);
                 }
                 else {
                     return undefined;
@@ -61,7 +62,7 @@ class CurrencyService {
     }
     updateCurrency(currencyUpdated) {
         return __awaiter(this, void 0, void 0, function* () {
-            const currencyPojo = this.parseDTOIntoPojo(currencyUpdated);
+            const currencyPojo = (0, functions_utils_1.parseCurrencyDTOIntoPojo)(currencyUpdated);
             const currencyPromise = yield this._currencyRepository.updateCurrency(currencyPojo).then(currencyId => {
                 return currencyId;
             }).catch(error => {

@@ -33,9 +33,9 @@ const transports = [
         })),
     }),
 ];
-const Logger = winston_1.default.createLogger({
+const logger = winston_1.default.createLogger({
     levels: levels,
     transports: transports,
     format: winston_1.default.format.combine(winston_1.default.format.metadata(), winston_1.default.format.timestamp({ format: "DD/MM/YYYY - HH:mm:ss" })),
 });
-exports.default = Logger;
+exports.default = logger;

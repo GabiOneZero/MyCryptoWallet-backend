@@ -1,6 +1,7 @@
 import { CurrencyDTO, NewCurrencyDTO } from "../types"
 import { CurrencyRepository } from "../data/repositories/currency.repository"
 import { CurrencyPojo } from "../data/models/currency.model"
+import { parseCurrencyDTOIntoPojo, parseCurrencyPojoIntoDTO } from "../utils/functions.utils"
 
 export class CurrencyService {
     _currencyRepository : CurrencyRepository
@@ -10,7 +11,7 @@ export class CurrencyService {
     }
 
     async addCurrency(currency: NewCurrencyDTO) : Promise<number> {
-        const currencyPojo : CurrencyPojo = this.parseDTOIntoPojo(currency)
+        const currencyPojo : CurrencyPojo = parseCurrencyDTOIntoPojo(currency)
         const currencyPromise = await this._currencyRepository.addCurrency(currencyPojo).then(currencyId => {
             return currencyId
         }).catch(error =>{
@@ -24,7 +25,7 @@ export class CurrencyService {
         const currenciesPromise = await this._currencyRepository.getAllCurrencies().then(currenciesAsPojo => {
             let currenciesAsDTO : CurrencyDTO[] = []
             currenciesAsPojo.forEach(currencyAsPojo =>{
-                let currencyAsDTO = this.parsePojoIntoDTO(currencyAsPojo)
+                let currencyAsDTO = parseCurrencyPojoIntoDTO(currencyAsPojo)
                 currenciesAsDTO.push(currencyAsDTO)
             })
             return currenciesAsDTO
@@ -38,7 +39,7 @@ export class CurrencyService {
     async getCurrencyById(id: string) : Promise<CurrencyDTO | undefined> {
         const currencyPromise = await this._currencyRepository.getCurrencyById(id).then(currencyAsPojo =>{
             if (!!currencyAsPojo) {
-                return this.parsePojoIntoDTO(currencyAsPojo)
+                return parseCurrencyPojoIntoDTO(currencyAsPojo)
             }else{
                 return undefined
             }
@@ -50,7 +51,7 @@ export class CurrencyService {
     }
 
     async updateCurrency(currencyUpdated: NewCurrencyDTO) : Promise<string> {
-        const currencyPojo : CurrencyPojo = this.parseDTOIntoPojo(currencyUpdated)
+        const currencyPojo : CurrencyPojo = parseCurrencyDTOIntoPojo(currencyUpdated)
         const currencyPromise = await this._currencyRepository.updateCurrency(currencyPojo).then(currencyId => {
             return currencyId
         }).catch(error =>{

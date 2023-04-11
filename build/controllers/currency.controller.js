@@ -1,6 +1,10 @@
 "use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.currencyController = void 0;
+const logs_utils_1 = __importDefault(require("../utils/logs.utils"));
 const currency_service_1 = require("./../services/currency.service");
 const currencyService = new currency_service_1.CurrencyService();
 exports.currencyController = {
@@ -12,7 +16,7 @@ exports.currencyController = {
             });
         }
         catch (error) {
-            console.log(error);
+            logs_utils_1.default.error(error);
             res.sendStatus(500);
         }
     },
@@ -23,8 +27,8 @@ exports.currencyController = {
             res.json(result);
         })
             .catch((error) => {
-            console.log("Se ha producido un error");
-            console.log(error);
+            logs_utils_1.default.warn("Se ha producido un error");
+            logs_utils_1.default.error(error);
             res.sendStatus(500);
         });
     },
@@ -37,7 +41,7 @@ exports.currencyController = {
             });
         }
         catch (error) {
-            console.log(error);
+            logs_utils_1.default.error(error);
             res.sendStatus(500);
         }
     },
@@ -49,7 +53,7 @@ exports.currencyController = {
             });
         }
         catch (error) {
-            console.log(error);
+            logs_utils_1.default.error(error);
             res.sendStatus(500);
         }
     },
