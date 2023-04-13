@@ -1,0 +1,231 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "MCW",
+    "dateExported": "2023-04-13T02:39:59.998Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "21e1d515-32f8-49be-8236-0f7d8a46b14f",
+            "name": "Users",
+            "containerId": "",
+            "created": "2023-04-10T12:23:54.935Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "a59b724a-3277-4e08-9182-03c350fa607f",
+            "name": "Currencies",
+            "containerId": "",
+            "created": "2023-04-11T15:29:43.950Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "d12ff714-23d2-40a4-9a38-d647d30e2bca",
+            "name": "Wallets",
+            "containerId": "",
+            "created": "2023-04-12T21:25:03.870Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "d7ff3bef-5c90-4283-80ae-2bc829962558",
+            "colId": "b546d175-3074-44ab-8a66-5ff5cbe9e3b0",
+            "containerId": "21e1d515-32f8-49be-8236-0f7d8a46b14f",
+            "name": "Login",
+            "url": "http://localhost:5000/api/user/login",
+            "method": "POST",
+            "sortNum": 5000,
+            "created": "2023-04-13T02:38:58.594Z",
+            "modified": "2023-04-13T02:39:45.901Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\" : \"admin\",\n  \"password\" : \"admin\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d530ec2d-cf04-4380-b0d0-85faf977c097",
+            "colId": "b546d175-3074-44ab-8a66-5ff5cbe9e3b0",
+            "containerId": "21e1d515-32f8-49be-8236-0f7d8a46b14f",
+            "name": "Add User",
+            "url": "http://localhost:5000/api/user/add",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-04-10T12:10:02.632Z",
+            "modified": "2023-04-11T10:41:13.638Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"testUser\",\n  \"fullname\": \"Gabriel Sánchez\",\n  \"password\": \"admin\",\n  \"email\": \"test@email.com\",\n  \"balance\": 50000\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "06a0fbb9-7d0b-4d30-be8f-ac9de5dd3e5f",
+            "colId": "b546d175-3074-44ab-8a66-5ff5cbe9e3b0",
+            "containerId": "21e1d515-32f8-49be-8236-0f7d8a46b14f",
+            "name": "Get All User",
+            "url": "http://localhost:5000/api/user/all",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-04-10T12:23:49.108Z",
+            "modified": "2023-04-10T14:11:56.442Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c2bb1a20-b25c-4d4b-a58d-001929103d59",
+            "colId": "b546d175-3074-44ab-8a66-5ff5cbe9e3b0",
+            "containerId": "21e1d515-32f8-49be-8236-0f7d8a46b14f",
+            "name": "Get User By Id",
+            "url": "http://localhost:5000/api/user/get/9767eb52-6ec1-4b66-bbfc-f6e596a580fa",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-04-11T10:41:53.439Z",
+            "modified": "2023-04-11T10:42:36.961Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9c111e86-dcfd-4dd9-818f-24f5490a1b3b",
+            "colId": "b546d175-3074-44ab-8a66-5ff5cbe9e3b0",
+            "containerId": "a59b724a-3277-4e08-9182-03c350fa607f",
+            "name": "Get All Currencies",
+            "url": "http://localhost:5000/api/currency/all",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-04-11T15:29:57.194Z",
+            "modified": "2023-04-11T15:53:11.952Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"currencyName\":\"XRP\",\n  \"value\": 0.50,\n  \"acronym\": \"XRP\",\n  \"icon\" : \"xrp.png\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "44216a2a-3796-4b5d-a767-261e6b643b70",
+            "colId": "b546d175-3074-44ab-8a66-5ff5cbe9e3b0",
+            "containerId": "21e1d515-32f8-49be-8236-0f7d8a46b14f",
+            "name": "Update User",
+            "url": "http://localhost:5000/api/user/update",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-04-12T23:31:26.844Z",
+            "modified": "2023-04-13T01:31:36.099Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "isDisabled": true
+                }
+            ],
+            "params": [
+                {
+                    "name": "currencyId",
+                    "value": "8c526ae4-e5d2-443c-91a0-37ce942f8122",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "userId",
+                    "value": "9767eb52-6ec1-4b66-bbfc-f6e596a580fa",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "amount",
+                    "value": "50",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"userId\" : \"9767eb52-6ec1-4b66-bbfc-f6e596a580fa\",\n  \"username\" : \"admin\",\n  \"fullname\" : \"Gabriel Sánchez\",\n  \"password\" : \"admin\",\n  \"email\" : \"admin@email.com\",\n  \"balance\" : 60000\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "0cbf9efe-aa2b-4fdd-958f-294596dbce47",
+            "colId": "b546d175-3074-44ab-8a66-5ff5cbe9e3b0",
+            "containerId": "d12ff714-23d2-40a4-9a38-d647d30e2bca",
+            "name": "Get Wallet By Ids",
+            "url": "http://localhost:5000/api/user/get/wallet/9767eb52-6ec1-4b66-bbfc-f6e596a580fa/8c526ae4-e5d2-443c-91a0-37ce942f8122",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-04-12T21:25:22.870Z",
+            "modified": "2023-04-12T21:28:00.655Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "401c3ac5-068b-44f4-b13c-6d4ce80e877d",
+            "colId": "b546d175-3074-44ab-8a66-5ff5cbe9e3b0",
+            "containerId": "d12ff714-23d2-40a4-9a38-d647d30e2bca",
+            "name": "Update Wallet",
+            "url": "http://localhost:5000/api/user/update/wallet",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2023-04-13T00:46:30.178Z",
+            "modified": "2023-04-13T00:59:39.232Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"userId\" : \"9767eb52-6ec1-4b66-bbfc-f6e596a580fa\",\n  \"currencyId\" : \"8c526ae4-e5d2-443c-91a0-37ce942f8122\",\n  \"amount\" : 55\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "2ef31a84-3df2-4360-8d55-05f0b45b1d51",
+            "colId": "b546d175-3074-44ab-8a66-5ff5cbe9e3b0",
+            "containerId": "a59b724a-3277-4e08-9182-03c350fa607f",
+            "name": "Add Currency",
+            "url": "",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2023-04-13T02:33:55.989Z",
+            "modified": "2023-04-13T02:33:55.989Z",
+            "headers": []
+        },
+        {
+            "_id": "c276e430-af71-4ba0-a6a2-534d53a26ac5",
+            "colId": "b546d175-3074-44ab-8a66-5ff5cbe9e3b0",
+            "containerId": "a59b724a-3277-4e08-9182-03c350fa607f",
+            "name": "Get Currency By Id",
+            "url": "http://localhost:5000/api/currency/get/2ddfca3b-269e-4a93-ac10-795406cf2ed7",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2023-04-13T02:36:32.819Z",
+            "modified": "2023-04-13T02:37:12.187Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "185868cd-8f8b-4962-9e4b-7050ee02af74",
+            "colId": "b546d175-3074-44ab-8a66-5ff5cbe9e3b0",
+            "containerId": "a59b724a-3277-4e08-9182-03c350fa607f",
+            "name": "Update Currency",
+            "url": "",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2023-04-13T02:37:36.954Z",
+            "modified": "2023-04-13T02:37:36.954Z",
+            "headers": []
+        }
+    ]
+}
