@@ -22,5 +22,5 @@ export class CurrencyDTO{
 }
 
 export type NewUserDTO = Omit<UserDTO, 'userId'>
-export type NewWalletDTO = Omit<WalletDTO, 'walletId'>
+export type NewWalletDTO = WalletDTO
 export type NewCurrencyDTO = Omit<CurrencyDTO, 'currencyId'>

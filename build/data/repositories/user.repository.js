@@ -28,7 +28,7 @@ class UserRepository {
         return __awaiter(this, void 0, void 0, function* () {
             try {
                 newUser = yield this._userRepository.create(newUser);
-                return newUser.id;
+                return newUser.userId;
             }
             catch (error) {
                 logs_utils_1.default.error(error);
@@ -58,11 +58,36 @@ class UserRepository {
             }
         });
     }
-    getUserByUsername(username) {
+    getWalletById(userId, currencyId) {
         return __awaiter(this, void 0, void 0, function* () {
             try {
-                return yield this._userRepository.findAll({
-                    where: { username: username }
+                const result = this._walletRepository.findOne({
+                    where: {
+                        userId: userId,
+                        currencyId: currencyId
+                    }
+                });
+                if (!!result) {
+                    return result;
+                }
+                else {
+                    return undefined;
+                }
+            }
+            catch (error) {
+                logs_utils_1.default.error(error);
+                return undefined;
+            }
+        });
+    }
+    getUserByUsernamePass(username, password) {
+        return __awaiter(this, void 0, void 0, function* () {
+            try {
+                return yield this._userRepository.findOne({
+                    where: {
+                        username: username,
+                        password: password
+                    }
                 });
             }
             catch (error) {
@@ -89,12 +114,15 @@ class UserRepository {
     }
     updateWallet(walletToUpdate) {
         return __awaiter(this, void 0, void 0, function* () {
+            logs_utils_1.default.warn(walletToUpdate.userId);
+            logs_utils_1.default.warn(walletToUpdate.currencyId);
             const result = yield this._walletRepository.findOne({
                 where: {
                     userId: walletToUpdate.userId,
                     currencyId: walletToUpdate.currencyId
                 }
             });
+            logs_utils_1.default.warn(result);
             if (!!result) {
                 this._walletRepository.update({
                     amount: walletToUpdate.amount

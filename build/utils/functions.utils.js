@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.parseCurrencyDTOIntoPojo = exports.parseCurrencyPojoIntoDTO = exports.parseInputWalletIntoDTO = exports.parseWalletDTOIntoPojo = exports.parseUserDTOIntoPojo = exports.parseUserPojoIntoDTO = void 0;
+exports.parseCurrencyDTOIntoPojo = exports.parseCurrencyPojoIntoDTO = exports.parseInputWalletIntoDTO = exports.parseWalletPojoIntoDTO = exports.parseWalletDTOIntoPojo = exports.parseUserDTOIntoPojo = exports.parseUserPojoIntoDTO = void 0;
 const parseUserPojoIntoDTO = (userPojo) => {
     return userPojo;
 };
@@ -13,6 +13,10 @@ const parseWalletDTOIntoPojo = (walletDTO) => {
     return walletDTO;
 };
 exports.parseWalletDTOIntoPojo = parseWalletDTOIntoPojo;
+const parseWalletPojoIntoDTO = (walletPojo) => {
+    return walletPojo;
+};
+exports.parseWalletPojoIntoDTO = parseWalletPojoIntoDTO;
 const parseInputWalletIntoDTO = (newWallet) => {
     const newWalletDTO = {
         userId: newWallet.userId,

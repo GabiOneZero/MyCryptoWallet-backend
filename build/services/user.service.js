@@ -8,10 +8,14 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.UserService = void 0;
 const user_repository_1 = require("../data/repositories/user.repository");
 const functions_utils_1 = require("../utils/functions.utils");
+const logs_utils_1 = __importDefault(require("../utils/logs.utils"));
 class UserService {
     constructor() {
         this._userRepository = new user_repository_1.UserRepository();
@@ -60,9 +64,25 @@ class UserService {
             return userPromise;
         });
     }
-    getUserByName(username) {
+    getWalletById(userId, currencyId) {
         return __awaiter(this, void 0, void 0, function* () {
-            const userPromise = yield this._userRepository.getUserByUsername(username).then(userAsPojo => {
+            const walletPromise = yield this._userRepository.getWalletById(userId, currencyId).then(walletAsPojo => {
+                if (!!walletAsPojo) {
+                    return (0, functions_utils_1.parseWalletPojoIntoDTO)(walletAsPojo);
+                }
+                else {
+                    return undefined;
+                }
+            }).catch(error => {
+                console.error(error);
+                throw error;
+            });
+            return walletPromise;
+        });
+    }
+    getUserByUsernamePass(username, password) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const userPromise = yield this._userRepository.getUserByUsernamePass(username, password).then(userAsPojo => {
                 if (!!userAsPojo) {
                     return (0, functions_utils_1.parseUserPojoIntoDTO)(userAsPojo);
                 }
@@ -91,6 +111,8 @@ class UserService {
     updateWallet(walletUpdated) {
         return __awaiter(this, void 0, void 0, function* () {
             const walletPojo = (0, functions_utils_1.parseWalletDTOIntoPojo)(walletUpdated);
+            logs_utils_1.default.warn("UserService");
+            logs_utils_1.default.warn(walletUpdated);
             const walletPromise = yield this._userRepository.updateWallet(walletPojo).then(walletId => {
                 return walletId;
             }).catch(error => {

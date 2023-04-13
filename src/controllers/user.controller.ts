@@ -1,4 +1,3 @@
-import { parseInputWalletIntoDTO } from "../utils/functions.utils"
 import logger from "../utils/logs.utils"
 import { UserService } from "./../services/user.service"
 
@@ -9,6 +8,8 @@ export const userController = {
 		try {
 			const newUser = req.body
 			userService.addUser(newUser).then((result) => {
+				logger.info("User added")
+				logger.info(result)
 				res.json(result)
 			})
 		} catch (error) {
@@ -40,11 +41,25 @@ export const userController = {
 			res.sendStatus(500)
 		}
 	},
-	getUserByUsername: (req: any, res: any) => {
+	getWalletById: (req: any, res: any) => {
 		try {
-			const username = req.params.username
+			const userId = req.params.userId
+			const currencyId = req.params.currencyId
+			userService.getWalletById(userId, currencyId)
+            .then((result) => {
+				res.json(result)
+			})
+		} catch (error) {
+			logger.error(error)
+			res.sendStatus(500)
+		}
+	},
+	getUserByUsernamePass: (req: any, res: any) => {
+		try {
+			const username = req.body.username
+			const password = req.body.password
 			logger.info("<<<HELLO>>> " + username)
-			userService.getUserByName(username)
+			userService.getUserByUsernamePass(username, password)
             .then((result) => {
 				res.json(result)
 			})
@@ -67,7 +82,9 @@ export const userController = {
 
     updateWallet: (req: any, res: any) => {
 		try {
-			const walletToUpdate = parseInputWalletIntoDTO(req.body)
+			const walletToUpdate = req.body
+			logger.warn("UserController")
+			logger.warn(req.body)
 			userService.updateWallet(walletToUpdate).then((result) => {
 				res.json(result)
 			})

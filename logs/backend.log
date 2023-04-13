@@ -27,3 +27,571 @@
 [11/04/2023 - 18:04:53] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
 [11/04/2023 - 18:04:55] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
 [11/04/2023 - 18:05:02] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[11/04/2023 - 21:40:51] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 08:31:07] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 08:31:11] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:15:04] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:15:14] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:15:17] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:15:22] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:17:08] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:18:16] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:18:21] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:18:26] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:18:30] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:18:36] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:18:49] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:18:52] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:18:53] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:18:59] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:19:05] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:19:59] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:20:01] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:20:07] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:20:12] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:20:14] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:20:46] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:22:22] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:22:28] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:23:24] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:23:34] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:23:39] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:23:41] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:23:46] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:23:50] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:24:23] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:24:24] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 09:24:26] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 11:03:53] info: <<<HELLO>>> undefined. {}
+[12/04/2023 - 11:03:53] error: WHERE parameter "username" has invalid "undefined" value. {}
+[12/04/2023 - 11:04:20] info: <<<HELLO>>> undefined. {}
+[12/04/2023 - 11:04:20] error: WHERE parameter "username" has invalid "undefined" value. {}
+[12/04/2023 - 11:05:10] info: <<<HELLO>>> undefined. {}
+[12/04/2023 - 11:05:10] error: WHERE parameter "username" has invalid "undefined" value. {}
+[12/04/2023 - 11:05:48] info: <<<HELLO>>> undefined. {}
+[12/04/2023 - 11:05:48] error: WHERE parameter "username" has invalid "undefined" value. {}
+[12/04/2023 - 11:05:56] info: <<<HELLO>>> undefined. {}
+[12/04/2023 - 11:05:56] error: WHERE parameter "username" has invalid "undefined" value. {}
+[12/04/2023 - 11:06:33] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 11:44:02] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 11:45:14] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 12:06:27] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 12:06:34] info: <<<HELLO>>> adfaf. {}
+[12/04/2023 - 12:06:36] info: <<<HELLO>>> adfaf. {}
+[12/04/2023 - 12:06:44] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 12:17:21] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 12:33:18] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 12:35:14] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 12:35:49] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 12:40:06] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 12:41:42] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 13:32:30] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 13:33:26] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 13:57:05] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 15:35:10] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 15:38:13] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 15:44:34] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 15:46:15] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 15:47:49] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 15:51:06] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 15:52:12] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 15:52:39] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 15:55:49] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 15:57:00] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 16:00:28] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 16:02:24] info: <<<HELLO>>> ADMIN. {}
+[12/04/2023 - 16:02:33] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 16:03:05] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 16:05:27] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 16:05:50] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 16:06:03] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 17:13:12] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 17:13:14] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 17:13:15] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 17:13:16] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 17:13:17] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 17:13:18] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 17:13:21] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 17:13:23] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 17:13:39] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 17:13:43] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 17:13:48] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 17:13:52] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 17:14:58] info: User added. {}
+[12/04/2023 - 17:14:58] info: undefined. {}
+[12/04/2023 - 17:16:11] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 17:16:54] info: User added. {}
+[12/04/2023 - 17:16:54] info: b8f4de1a-62b8-4662-9646-ee09ea72a87b. {}
+[12/04/2023 - 17:18:38] info: User added. {}
+[12/04/2023 - 17:18:38] info: e3aa9547-22d8-4153-a2aa-c6de23405ad5. {}
+[12/04/2023 - 17:20:30] info: User added. {}
+[12/04/2023 - 17:20:30] info: f54bb882-f074-43a9-bd4a-efcea2abf00f. {}
+[12/04/2023 - 17:22:17] info: User added. {}
+[12/04/2023 - 17:22:17] info: 19c157e5-20c6-41cb-8187-b73a001017e9. {}
+[12/04/2023 - 17:22:32] info: <<<HELLO>>> test. {}
+[12/04/2023 - 17:22:54] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 17:22:55] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 17:29:07] info: <<<HELLO>>> ddfff. {}
+[12/04/2023 - 17:29:10] info: <<<HELLO>>> ddfff. {}
+[12/04/2023 - 17:40:07] info: <<<HELLO>>> adfadf. {}
+[12/04/2023 - 17:43:55] info: <<<HELLO>>> adfaf. {}
+[12/04/2023 - 17:48:30] info: <<<HELLO>>> adfadf. {}
+[12/04/2023 - 17:48:39] info: <<<HELLO>>> adfadf. {}
+[12/04/2023 - 17:49:37] info: <<<HELLO>>> adfadf. {}
+[12/04/2023 - 17:50:22] info: <<<HELLO>>> adfadf. {}
+[12/04/2023 - 17:50:30] info: <<<HELLO>>> adfadf. {}
+[12/04/2023 - 17:51:07] info: <<<HELLO>>> sfgsfgsfg. {}
+[12/04/2023 - 17:52:05] info: <<<HELLO>>> sadfadfaf. {}
+[12/04/2023 - 17:53:08] info: <<<HELLO>>> adfafd. {}
+[12/04/2023 - 17:55:32] info: <<<HELLO>>> adfadfaf. {}
+[12/04/2023 - 17:56:14] info: <<<HELLO>>> adfadfaf. {}
+[12/04/2023 - 17:56:50] info: <<<HELLO>>> sfsfg. {}
+[12/04/2023 - 17:58:34] info: <<<HELLO>>> adfaf. {}
+[12/04/2023 - 17:58:40] info: <<<HELLO>>> adfaf. {}
+[12/04/2023 - 17:59:37] info: <<<HELLO>>> adfadfaf. {}
+[12/04/2023 - 17:59:49] info: <<<HELLO>>> adfadfa. {}
+[12/04/2023 - 18:04:22] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 19:23:02] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 19:26:58] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 20:11:01] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 21:28:54] info: <<<HELLO>>> admin. {}
+[12/04/2023 - 23:05:36] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:05:38] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:05:48] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:05:55] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:06:04] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:06:11] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:06:13] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:06:17] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:06:19] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:06:21] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:06:24] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:06:26] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:07:14] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:07:22] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:07:38] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:07:42] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:07:48] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:07:54] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:07:56] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:08:19] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:08:24] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:08:29] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:08:36] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:08:43] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:08:54] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:09:04] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:09:08] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:09:21] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:09:26] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:09:30] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:09:38] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:09:50] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:09:54] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:10:41] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:10:46] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:10:49] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:11:02] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:11:17] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:11:23] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:11:28] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:11:31] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:11:35] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:11:37] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:11:41] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:11:51] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:11:52] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:11:55] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:27:19] error: Cannot create property 'where' on string 'd566226e-b66b-4a9f-936c-115cd2734e69'. {}
+[12/04/2023 - 23:27:19] error: Cannot create property 'where' on string '2ddfca3b-269e-4a93-ac10-795406cf2ed7'. {}
+[12/04/2023 - 23:27:19] error: Cannot create property 'where' on string 'f7922f27-73be-4fb8-a806-a14796e3c16e'. {}
+[12/04/2023 - 23:27:19] error: Cannot create property 'where' on string 'ad5736c4-9b23-4b8d-9ffd-82f823df915f'. {}
+[12/04/2023 - 23:27:19] error: Cannot create property 'where' on string 'ab7eea13-f24d-4923-97dd-15138176368f'. {}
+[12/04/2023 - 23:27:19] error: Cannot create property 'where' on string '51e67dc8-0814-42db-a678-51c771e31d2b'. {}
+[12/04/2023 - 23:27:19] error: Cannot create property 'where' on string '45b05e9a-94ed-4785-b8c4-104d5ed6aacf'. {}
+[12/04/2023 - 23:27:19] error: Cannot create property 'where' on string 'dd265b40-b7ac-42b9-9bcf-4d04f4c024c3'. {}
+[12/04/2023 - 23:27:19] error: Cannot create property 'where' on string '6c4c4c7c-9769-4ade-b3bb-82d33f93618d'. {}
+[12/04/2023 - 23:27:19] error: Cannot create property 'where' on string '8c526ae4-e5d2-443c-91a0-37ce942f8122'. {}
+[12/04/2023 - 23:27:41] error: Cannot create property 'where' on string 'd566226e-b66b-4a9f-936c-115cd2734e69'. {}
+[12/04/2023 - 23:27:41] error: Cannot create property 'where' on string '2ddfca3b-269e-4a93-ac10-795406cf2ed7'. {}
+[12/04/2023 - 23:27:41] error: Cannot create property 'where' on string 'f7922f27-73be-4fb8-a806-a14796e3c16e'. {}
+[12/04/2023 - 23:27:41] error: Cannot create property 'where' on string 'ad5736c4-9b23-4b8d-9ffd-82f823df915f'. {}
+[12/04/2023 - 23:27:41] error: Cannot create property 'where' on string '51e67dc8-0814-42db-a678-51c771e31d2b'. {}
+[12/04/2023 - 23:27:41] error: Cannot create property 'where' on string 'ab7eea13-f24d-4923-97dd-15138176368f'. {}
+[12/04/2023 - 23:27:41] error: Cannot create property 'where' on string '45b05e9a-94ed-4785-b8c4-104d5ed6aacf'. {}
+[12/04/2023 - 23:27:41] error: Cannot create property 'where' on string 'dd265b40-b7ac-42b9-9bcf-4d04f4c024c3'. {}
+[12/04/2023 - 23:27:41] error: Cannot create property 'where' on string '6c4c4c7c-9769-4ade-b3bb-82d33f93618d'. {}
+[12/04/2023 - 23:27:41] error: Cannot create property 'where' on string '8c526ae4-e5d2-443c-91a0-37ce942f8122'. {}
+[12/04/2023 - 23:28:00] error: Cannot create property 'where' on string '8c526ae4-e5d2-443c-91a0-37ce942f8122'. {}
+[12/04/2023 - 23:28:49] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:29:11] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:29:16] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:29:18] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:29:22] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:29:28] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:29:33] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:29:48] error: no existe la columna UserPojo.currencyId. {"name":"SequelizeDatabaseError","parent":{"length":117,"name":"error","severity":"ERROR","code":"42703","position":"177","file":"parse_relation.c","line":"3661","routine":"errorMissingColumn","sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = 'd566226e-b66b-4a9f-936c-115cd2734e69';"},"original":{"length":117,"name":"error","severity":"ERROR","code":"42703","position":"177","file":"parse_relation.c","line":"3661","routine":"errorMissingColumn","sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = 'd566226e-b66b-4a9f-936c-115cd2734e69';"},"sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = 'd566226e-b66b-4a9f-936c-115cd2734e69';","parameters":{}}
+[12/04/2023 - 23:29:48] error: no existe la columna UserPojo.currencyId. {"name":"SequelizeDatabaseError","parent":{"length":117,"name":"error","severity":"ERROR","code":"42703","position":"177","file":"parse_relation.c","line":"3661","routine":"errorMissingColumn","sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = '2ddfca3b-269e-4a93-ac10-795406cf2ed7';"},"original":{"length":117,"name":"error","severity":"ERROR","code":"42703","position":"177","file":"parse_relation.c","line":"3661","routine":"errorMissingColumn","sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = '2ddfca3b-269e-4a93-ac10-795406cf2ed7';"},"sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = '2ddfca3b-269e-4a93-ac10-795406cf2ed7';","parameters":{}}
+[12/04/2023 - 23:29:48] error: no existe la columna UserPojo.currencyId. {"name":"SequelizeDatabaseError","parent":{"length":117,"name":"error","severity":"ERROR","code":"42703","position":"177","file":"parse_relation.c","line":"3661","routine":"errorMissingColumn","sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = 'f7922f27-73be-4fb8-a806-a14796e3c16e';"},"original":{"length":117,"name":"error","severity":"ERROR","code":"42703","position":"177","file":"parse_relation.c","line":"3661","routine":"errorMissingColumn","sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = 'f7922f27-73be-4fb8-a806-a14796e3c16e';"},"sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = 'f7922f27-73be-4fb8-a806-a14796e3c16e';","parameters":{}}
+[12/04/2023 - 23:29:48] error: no existe la columna UserPojo.currencyId. {"name":"SequelizeDatabaseError","parent":{"length":117,"name":"error","severity":"ERROR","code":"42703","position":"177","file":"parse_relation.c","line":"3661","routine":"errorMissingColumn","sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = 'ad5736c4-9b23-4b8d-9ffd-82f823df915f';"},"original":{"length":117,"name":"error","severity":"ERROR","code":"42703","position":"177","file":"parse_relation.c","line":"3661","routine":"errorMissingColumn","sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = 'ad5736c4-9b23-4b8d-9ffd-82f823df915f';"},"sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = 'ad5736c4-9b23-4b8d-9ffd-82f823df915f';","parameters":{}}
+[12/04/2023 - 23:29:48] error: no existe la columna UserPojo.currencyId. {"name":"SequelizeDatabaseError","parent":{"length":117,"name":"error","severity":"ERROR","code":"42703","position":"177","file":"parse_relation.c","line":"3661","routine":"errorMissingColumn","sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = '51e67dc8-0814-42db-a678-51c771e31d2b';"},"original":{"length":117,"name":"error","severity":"ERROR","code":"42703","position":"177","file":"parse_relation.c","line":"3661","routine":"errorMissingColumn","sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = '51e67dc8-0814-42db-a678-51c771e31d2b';"},"sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = '51e67dc8-0814-42db-a678-51c771e31d2b';","parameters":{}}
+[12/04/2023 - 23:29:48] error: no existe la columna UserPojo.currencyId. {"name":"SequelizeDatabaseError","parent":{"length":117,"name":"error","severity":"ERROR","code":"42703","position":"177","file":"parse_relation.c","line":"3661","routine":"errorMissingColumn","sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = 'ab7eea13-f24d-4923-97dd-15138176368f';"},"original":{"length":117,"name":"error","severity":"ERROR","code":"42703","position":"177","file":"parse_relation.c","line":"3661","routine":"errorMissingColumn","sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = 'ab7eea13-f24d-4923-97dd-15138176368f';"},"sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = 'ab7eea13-f24d-4923-97dd-15138176368f';","parameters":{}}
+[12/04/2023 - 23:29:48] error: no existe la columna UserPojo.currencyId. {"name":"SequelizeDatabaseError","parent":{"length":117,"name":"error","severity":"ERROR","code":"42703","position":"177","file":"parse_relation.c","line":"3661","routine":"errorMissingColumn","sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = '45b05e9a-94ed-4785-b8c4-104d5ed6aacf';"},"original":{"length":117,"name":"error","severity":"ERROR","code":"42703","position":"177","file":"parse_relation.c","line":"3661","routine":"errorMissingColumn","sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = '45b05e9a-94ed-4785-b8c4-104d5ed6aacf';"},"sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = '45b05e9a-94ed-4785-b8c4-104d5ed6aacf';","parameters":{}}
+[12/04/2023 - 23:29:48] error: no existe la columna UserPojo.currencyId. {"name":"SequelizeDatabaseError","parent":{"length":117,"name":"error","severity":"ERROR","code":"42703","position":"177","file":"parse_relation.c","line":"3661","routine":"errorMissingColumn","sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = 'dd265b40-b7ac-42b9-9bcf-4d04f4c024c3';"},"original":{"length":117,"name":"error","severity":"ERROR","code":"42703","position":"177","file":"parse_relation.c","line":"3661","routine":"errorMissingColumn","sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = 'dd265b40-b7ac-42b9-9bcf-4d04f4c024c3';"},"sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = 'dd265b40-b7ac-42b9-9bcf-4d04f4c024c3';","parameters":{}}
+[12/04/2023 - 23:29:48] error: no existe la columna UserPojo.currencyId. {"name":"SequelizeDatabaseError","parent":{"length":117,"name":"error","severity":"ERROR","code":"42703","position":"177","file":"parse_relation.c","line":"3661","routine":"errorMissingColumn","sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = '6c4c4c7c-9769-4ade-b3bb-82d33f93618d';"},"original":{"length":117,"name":"error","severity":"ERROR","code":"42703","position":"177","file":"parse_relation.c","line":"3661","routine":"errorMissingColumn","sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = '6c4c4c7c-9769-4ade-b3bb-82d33f93618d';"},"sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = '6c4c4c7c-9769-4ade-b3bb-82d33f93618d';","parameters":{}}
+[12/04/2023 - 23:29:48] error: no existe la columna UserPojo.currencyId. {"name":"SequelizeDatabaseError","parent":{"length":117,"name":"error","severity":"ERROR","code":"42703","position":"177","file":"parse_relation.c","line":"3661","routine":"errorMissingColumn","sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = '8c526ae4-e5d2-443c-91a0-37ce942f8122';"},"original":{"length":117,"name":"error","severity":"ERROR","code":"42703","position":"177","file":"parse_relation.c","line":"3661","routine":"errorMissingColumn","sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = '8c526ae4-e5d2-443c-91a0-37ce942f8122';"},"sql":"SELECT \"userId\", \"username\", \"fullname\", \"password\", \"email\", \"balance\" FROM \"mcw\".\"users\" AS \"UserPojo\" WHERE \"UserPojo\".\"userId\" = '9767eb52-6ec1-4b66-bbfc-f6e596a580fa' AND \"UserPojo\".\"currencyId\" = '8c526ae4-e5d2-443c-91a0-37ce942f8122';","parameters":{}}
+[12/04/2023 - 23:30:32] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:32:45] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:32:52] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:33:32] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:33:41] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:33:43] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:35:29] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:35:31] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:35:34] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:35:43] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:35:46] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:35:52] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:35:55] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:36:01] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:36:22] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:36:28] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:36:37] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:36:40] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:36:59] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:37:03] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:37:09] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:37:11] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[12/04/2023 - 23:37:19] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 00:59:20] info: <<<HELLO>>> admin. {}
+[13/04/2023 - 01:25:00] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:25:01] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:25:07] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:25:11] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:27:58] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:28:02] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:28:45] info: <<<HELLO>>> admin. {}
+[13/04/2023 - 01:35:10] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:35:14] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:37:02] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:37:05] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:38:35] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:38:39] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:38:42] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:38:43] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:38:45] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:38:46] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:38:52] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:38:57] warn: [object Object]. {}
+[13/04/2023 - 01:39:58] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:40:01] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:40:03] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:40:06] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:40:07] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:40:13] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:40:21] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:40:23] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:40:24] warn: [object Object]. {}
+[13/04/2023 - 01:40:49] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:40:54] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:41:00] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:41:06] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:41:08] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:41:09] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:41:14] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:41:14] warn: UserService. {}
+[13/04/2023 - 01:41:42] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:41:49] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:41:53] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:41:58] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:42:01] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:42:02] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:42:05] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:42:12] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:42:14] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:42:18] warn: UserController. {}
+[13/04/2023 - 01:42:41] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:42:46] warn: UserController. {}
+[13/04/2023 - 01:48:59] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:49:01] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:49:10] warn: UserController. {}
+[13/04/2023 - 01:50:20] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:50:26] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:50:46] warn: UserController. {}
+[13/04/2023 - 01:52:13] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:52:24] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:52:26] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:52:27] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:52:30] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:53:01] warn: UserController. {}
+[13/04/2023 - 01:53:01] error: Unexpected token o in JSON at position 1. {}
+[13/04/2023 - 01:53:38] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:53:39] warn: UserController. {}
+[13/04/2023 - 01:54:50] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:54:52] warn: UserController. {}
+[13/04/2023 - 01:55:26] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 01:55:59] info: <<<HELLO>>> admin. {}
+[13/04/2023 - 02:01:19] warn: UserController. {}
+[13/04/2023 - 02:02:20] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:02:23] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:02:45] warn: UserController. {}
+[13/04/2023 - 02:06:12] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:07:05] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:07:20] warn: UserController. {}
+[13/04/2023 - 02:07:32] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:07:34] warn: UserController. {}
+[13/04/2023 - 02:09:07] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:09:11] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:11:00] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:11:06] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:11:08] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:13:48] warn: UserController. {}
+[13/04/2023 - 02:14:36] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:14:39] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:14:51] info: <<<HELLO>>> admin. {}
+[13/04/2023 - 02:15:00] warn: UserController. {}
+[13/04/2023 - 02:24:24] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:24:29] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:24:52] info: <<<HELLO>>> admin. {}
+[13/04/2023 - 02:25:01] warn: UserController. {}
+[13/04/2023 - 02:29:41] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:29:45] warn: UserController. {}
+[13/04/2023 - 02:30:32] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:30:34] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:30:35] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:30:38] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:30:44] warn: UserController. {}
+[13/04/2023 - 02:31:11] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:31:14] warn: UserController. {}
+[13/04/2023 - 02:33:04] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:33:05] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:33:07] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:33:28] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:34:21] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:34:35] warn: UserController. {}
+[13/04/2023 - 02:34:35] error: Unexpected token o in JSON at position 1. {}
+[13/04/2023 - 02:34:53] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:35:08] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:35:11] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:35:14] error: Unexpected token o in JSON at position 1. {}
+[13/04/2023 - 02:35:22] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:35:29] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:35:33] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:35:34] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:35:37] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:36:35] warn: UserController. {}
+[13/04/2023 - 02:39:03] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:39:06] warn: UserController. {}
+[13/04/2023 - 02:39:27] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:39:29] warn: UserController. {}
+[13/04/2023 - 02:39:59] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:40:06] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:40:10] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:40:13] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:40:17] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:40:19] warn: UserController. {}
+[13/04/2023 - 02:40:41] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:40:44] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:40:46] warn: UserController. {}
+[13/04/2023 - 02:44:03] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:44:06] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:45:47] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:45:51] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:48:09] warn: UserController. {}
+[13/04/2023 - 02:48:09] warn: [object Object]. {}
+[13/04/2023 - 02:48:09] warn: UserService. {}
+[13/04/2023 - 02:48:09] warn: [object Object]. {}
+[13/04/2023 - 02:48:09] warn: [object Object]. {}
+[13/04/2023 - 02:48:09] info: Wallet Updated. {}
+[13/04/2023 - 02:48:43] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:48:47] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:49:00] info: <<<HELLO>>> admin. {}
+[13/04/2023 - 02:49:44] warn: UserController. {}
+[13/04/2023 - 02:49:44] warn: [object Object]. {}
+[13/04/2023 - 02:49:44] warn: UserService. {}
+[13/04/2023 - 02:49:44] warn: [object Object]. {}
+[13/04/2023 - 02:49:44] warn: [object Object]. {}
+[13/04/2023 - 02:49:44] info: Wallet Created. {}
+[13/04/2023 - 02:55:12] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:55:15] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:56:08] info: <<<HELLO>>> admin. {}
+[13/04/2023 - 02:56:16] info: <<<HELLO>>> admin. {}
+[13/04/2023 - 02:56:24] warn: UserController. {}
+[13/04/2023 - 02:56:24] warn: [object Object]. {}
+[13/04/2023 - 02:56:24] warn: UserService. {}
+[13/04/2023 - 02:56:24] warn: [object Object]. {}
+[13/04/2023 - 02:56:24] warn: [object Object]. {}
+[13/04/2023 - 02:56:24] info: Wallet Created. {}
+[13/04/2023 - 02:59:05] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:59:07] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:59:17] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:59:22] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 02:59:39] warn: UserController. {}
+[13/04/2023 - 02:59:39] warn: [object Object]. {}
+[13/04/2023 - 02:59:39] warn: UserService. {}
+[13/04/2023 - 02:59:39] warn: [object Object]. {}
+[13/04/2023 - 02:59:39] warn: 9767eb52-6ec1-4b66-bbfc-f6e596a580fa. {}
+[13/04/2023 - 02:59:39] warn: 8c526ae4-e5d2-443c-91a0-37ce942f8122. {}
+[13/04/2023 - 02:59:39] info: Wallet Updated. {}
+[13/04/2023 - 03:00:17] info: <<<HELLO>>> admin. {}
+[13/04/2023 - 03:00:28] warn: UserController. {}
+[13/04/2023 - 03:00:28] warn: [object Object]. {}
+[13/04/2023 - 03:00:28] warn: UserService. {}
+[13/04/2023 - 03:00:28] warn: [object Object]. {}
+[13/04/2023 - 03:00:28] warn: "9767eb52-6ec1-4b66-bbfc-f6e596a580fa". {}
+[13/04/2023 - 03:00:28] warn: 8c526ae4-e5d2-443c-91a0-37ce942f8122. {}
+[13/04/2023 - 03:00:28] info: Wallet Created. {}
+[13/04/2023 - 03:03:47] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 03:03:49] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 03:03:52] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 03:03:54] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 03:04:05] warn: UserController. {}
+[13/04/2023 - 03:04:05] warn: [object Object]. {}
+[13/04/2023 - 03:04:05] warn: UserService. {}
+[13/04/2023 - 03:04:05] warn: [object Object]. {}
+[13/04/2023 - 03:04:05] warn: "9767eb52-6ec1-4b66-bbfc-f6e596a580fa". {}
+[13/04/2023 - 03:04:05] warn: 8c526ae4-e5d2-443c-91a0-37ce942f8122. {}
+[13/04/2023 - 03:04:05] warn: null. {}
+[13/04/2023 - 03:04:39] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 03:04:44] warn: UserController. {}
+[13/04/2023 - 03:04:44] warn: [object Object]. {}
+[13/04/2023 - 03:04:44] warn: UserService. {}
+[13/04/2023 - 03:04:44] warn: [object Object]. {}
+[13/04/2023 - 03:04:44] warn: 9767eb52-6ec1-4b66-bbfc-f6e596a580fa. {}
+[13/04/2023 - 03:04:44] warn: 8c526ae4-e5d2-443c-91a0-37ce942f8122. {}
+[13/04/2023 - 03:04:44] warn: [object SequelizeInstance:WalletPojo]. {}
+[13/04/2023 - 03:04:44] info: Wallet Updated. {}
+[13/04/2023 - 03:06:19] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 03:06:33] warn: UserController. {}
+[13/04/2023 - 03:06:33] warn: [object Object]. {}
+[13/04/2023 - 03:06:33] warn: UserService. {}
+[13/04/2023 - 03:06:33] warn: [object Object]. {}
+[13/04/2023 - 03:06:33] warn: 9767eb52-6ec1-4b66-bbfc-f6e596a580fa. {}
+[13/04/2023 - 03:06:33] warn: 8c526ae4-e5d2-443c-91a0-37ce942f8122. {}
+[13/04/2023 - 03:06:33] warn: [object SequelizeInstance:WalletPojo]. {}
+[13/04/2023 - 03:06:33] info: Wallet Updated. {}
+[13/04/2023 - 03:07:47] warn: UserController. {}
+[13/04/2023 - 03:07:47] warn: [object Object]. {}
+[13/04/2023 - 03:07:47] warn: UserService. {}
+[13/04/2023 - 03:07:47] warn: [object Object]. {}
+[13/04/2023 - 03:07:47] warn: 9767eb52-6ec1-4b66-bbfc-f6e596a580fa. {}
+[13/04/2023 - 03:07:47] warn: 8c526ae4-e5d2-443c-91a0-37ce942f8122. {}
+[13/04/2023 - 03:07:47] warn: [object SequelizeInstance:WalletPojo]. {}
+[13/04/2023 - 03:07:47] info: Wallet Updated. {}
+[13/04/2023 - 03:08:09] warn: UserController. {}
+[13/04/2023 - 03:08:09] warn: [object Object]. {}
+[13/04/2023 - 03:08:09] warn: UserService. {}
+[13/04/2023 - 03:08:09] warn: [object Object]. {}
+[13/04/2023 - 03:08:09] warn: 9767eb52-6ec1-4b66-bbfc-f6e596a580fa. {}
+[13/04/2023 - 03:08:09] warn: 8c526ae4-e5d2-443c-91a0-37ce942f8122. {}
+[13/04/2023 - 03:08:09] warn: [object SequelizeInstance:WalletPojo]. {}
+[13/04/2023 - 03:08:09] info: Wallet Updated. {}
+[13/04/2023 - 03:09:56] warn: UserController. {}
+[13/04/2023 - 03:09:56] warn: [object Object]. {}
+[13/04/2023 - 03:09:56] warn: UserService. {}
+[13/04/2023 - 03:09:56] warn: [object Object]. {}
+[13/04/2023 - 03:09:56] warn: 9767eb52-6ec1-4b66-bbfc-f6e596a580fa. {}
+[13/04/2023 - 03:09:56] warn: 8c526ae4-e5d2-443c-91a0-37ce942f8122. {}
+[13/04/2023 - 03:09:56] warn: [object SequelizeInstance:WalletPojo]. {}
+[13/04/2023 - 03:09:56] info: Wallet Updated. {}
+[13/04/2023 - 03:11:06] warn: UserController. {}
+[13/04/2023 - 03:11:06] warn: [object Object]. {}
+[13/04/2023 - 03:11:06] warn: UserService. {}
+[13/04/2023 - 03:11:06] warn: [object Object]. {}
+[13/04/2023 - 03:11:06] warn: 9767eb52-6ec1-4b66-bbfc-f6e596a580fa. {}
+[13/04/2023 - 03:11:06] warn: 8c526ae4-e5d2-443c-91a0-37ce942f8122. {}
+[13/04/2023 - 03:11:06] warn: [object SequelizeInstance:WalletPojo]. {}
+[13/04/2023 - 03:11:06] info: Wallet Updated. {}
+[13/04/2023 - 03:13:07] warn: UserController. {}
+[13/04/2023 - 03:13:07] warn: [object Object]. {}
+[13/04/2023 - 03:13:07] warn: UserService. {}
+[13/04/2023 - 03:13:07] warn: [object Object]. {}
+[13/04/2023 - 03:13:07] warn: 9767eb52-6ec1-4b66-bbfc-f6e596a580fa. {}
+[13/04/2023 - 03:13:07] warn: 8c526ae4-e5d2-443c-91a0-37ce942f8122. {}
+[13/04/2023 - 03:13:07] warn: [object SequelizeInstance:WalletPojo]. {}
+[13/04/2023 - 03:13:07] info: Wallet Updated. {}
+[13/04/2023 - 03:14:09] warn: UserController. {}
+[13/04/2023 - 03:14:09] warn: [object Object]. {}
+[13/04/2023 - 03:14:09] warn: UserService. {}
+[13/04/2023 - 03:14:09] warn: [object Object]. {}
+[13/04/2023 - 03:14:09] warn: 9767eb52-6ec1-4b66-bbfc-f6e596a580fa. {}
+[13/04/2023 - 03:14:09] warn: 8c526ae4-e5d2-443c-91a0-37ce942f8122. {}
+[13/04/2023 - 03:14:09] warn: [object SequelizeInstance:WalletPojo]. {}
+[13/04/2023 - 03:14:09] info: Wallet Updated. {}
+[13/04/2023 - 03:14:48] warn: UserController. {}
+[13/04/2023 - 03:14:48] warn: [object Object]. {}
+[13/04/2023 - 03:14:48] warn: UserService. {}
+[13/04/2023 - 03:14:48] warn: [object Object]. {}
+[13/04/2023 - 03:14:48] warn: 9767eb52-6ec1-4b66-bbfc-f6e596a580fa. {}
+[13/04/2023 - 03:14:48] warn: 8c526ae4-e5d2-443c-91a0-37ce942f8122. {}
+[13/04/2023 - 03:14:48] warn: [object SequelizeInstance:WalletPojo]. {}
+[13/04/2023 - 03:14:48] info: Wallet Updated. {}
+[13/04/2023 - 03:41:57] error: el valor nulo en la columna «password» de la relación «users» viola la restricción de no nulo. {"name":"SequelizeDatabaseError","parent":{"length":316,"name":"error","severity":"ERROR","code":"23502","detail":"La fila que falla contiene (9767eb52-6ec1-4b66-bbfc-f6e596a580fa, \"admin\", \"Gabriel Sánchez\", null, \"admin@email.com\", 60000.00).","schema":"mcw","table":"users","column":"password","file":"execmain.c","line":"1974","routine":"ExecConstraints","sql":"UPDATE \"mcw\".\"users\" SET \"userId\"=$1,\"username\"=$2,\"fullname\"=$3,\"password\"=$4,\"email\"=$5,\"balance\"=$6 WHERE \"userId\" = $7","parameters":["9767eb52-6ec1-4b66-bbfc-f6e596a580fa","\"admin\"","\"Gabriel Sánchez\"",null,"\"admin@email.com\"","60000.0025","9767eb52-6ec1-4b66-bbfc-f6e596a580fa"]},"original":{"length":316,"name":"error","severity":"ERROR","code":"23502","detail":"La fila que falla contiene (9767eb52-6ec1-4b66-bbfc-f6e596a580fa, \"admin\", \"Gabriel Sánchez\", null, \"admin@email.com\", 60000.00).","schema":"mcw","table":"users","column":"password","file":"execmain.c","line":"1974","routine":"ExecConstraints","sql":"UPDATE \"mcw\".\"users\" SET \"userId\"=$1,\"username\"=$2,\"fullname\"=$3,\"password\"=$4,\"email\"=$5,\"balance\"=$6 WHERE \"userId\" = $7","parameters":["9767eb52-6ec1-4b66-bbfc-f6e596a580fa","\"admin\"","\"Gabriel Sánchez\"",null,"\"admin@email.com\"","60000.0025","9767eb52-6ec1-4b66-bbfc-f6e596a580fa"]},"sql":"UPDATE \"mcw\".\"users\" SET \"userId\"=$1,\"username\"=$2,\"fullname\"=$3,\"password\"=$4,\"email\"=$5,\"balance\"=$6 WHERE \"userId\" = $7","parameters":["9767eb52-6ec1-4b66-bbfc-f6e596a580fa","\"admin\"","\"Gabriel Sánchez\"",null,"\"admin@email.com\"","60000.0025","9767eb52-6ec1-4b66-bbfc-f6e596a580fa"]}
+[13/04/2023 - 03:45:27] info: <<<HELLO>>> admin. {}
+[13/04/2023 - 03:57:24] warn: UserController. {}
+[13/04/2023 - 03:57:24] warn: [object Object]. {}
+[13/04/2023 - 03:57:24] warn: UserService. {}
+[13/04/2023 - 03:57:24] warn: [object Object]. {}
+[13/04/2023 - 03:57:24] warn: 9767eb52-6ec1-4b66-bbfc-f6e596a580fa. {}
+[13/04/2023 - 03:57:24] warn: 8c526ae4-e5d2-443c-91a0-37ce942f8122. {}
+[13/04/2023 - 03:57:24] warn: [object SequelizeInstance:WalletPojo]. {}
+[13/04/2023 - 03:57:24] info: Wallet Updated. {}
+[13/04/2023 - 04:01:37] warn: UserController. {}
+[13/04/2023 - 04:01:37] warn: [object Object]. {}
+[13/04/2023 - 04:01:37] warn: UserService. {}
+[13/04/2023 - 04:01:37] warn: [object Object]. {}
+[13/04/2023 - 04:01:37] warn: 9767eb52-6ec1-4b66-bbfc-f6e596a580fa. {}
+[13/04/2023 - 04:01:37] warn: 6c4c4c7c-9769-4ade-b3bb-82d33f93618d. {}
+[13/04/2023 - 04:01:37] warn: null. {}
+[13/04/2023 - 04:01:37] info: Wallet Created. {}
+[13/04/2023 - 04:03:06] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 04:03:36] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 04:03:42] info: <<<HELLO>>> admin. {}
+[13/04/2023 - 04:03:50] warn: UserController. {}
+[13/04/2023 - 04:03:50] warn: [object Object]. {}
+[13/04/2023 - 04:03:50] warn: UserService. {}
+[13/04/2023 - 04:03:50] warn: [object Object]. {}
+[13/04/2023 - 04:03:50] warn: 9767eb52-6ec1-4b66-bbfc-f6e596a580fa. {}
+[13/04/2023 - 04:03:50] warn: dd265b40-b7ac-42b9-9bcf-4d04f4c024c3. {}
+[13/04/2023 - 04:03:50] warn: null. {}
+[13/04/2023 - 04:03:50] info: Wallet Created. {}
+[13/04/2023 - 04:05:02] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 04:05:18] warn: UserController. {}
+[13/04/2023 - 04:05:18] warn: [object Object]. {}
+[13/04/2023 - 04:05:18] warn: UserService. {}
+[13/04/2023 - 04:05:18] warn: [object Object]. {}
+[13/04/2023 - 04:05:18] warn: 9767eb52-6ec1-4b66-bbfc-f6e596a580fa. {}
+[13/04/2023 - 04:05:18] warn: 8c526ae4-e5d2-443c-91a0-37ce942f8122. {}
+[13/04/2023 - 04:05:18] warn: [object SequelizeInstance:WalletPojo]. {}
+[13/04/2023 - 04:05:18] info: Wallet Updated. {}
+[13/04/2023 - 04:07:26] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 04:07:33] info: <<<HELLO>>> admin. {}
+[13/04/2023 - 04:07:41] warn: UserController. {}
+[13/04/2023 - 04:07:41] warn: [object Object]. {}
+[13/04/2023 - 04:07:41] warn: UserService. {}
+[13/04/2023 - 04:07:41] warn: [object Object]. {}
+[13/04/2023 - 04:07:41] warn: 9767eb52-6ec1-4b66-bbfc-f6e596a580fa. {}
+[13/04/2023 - 04:07:41] warn: 8c526ae4-e5d2-443c-91a0-37ce942f8122. {}
+[13/04/2023 - 04:07:41] warn: [object SequelizeInstance:WalletPojo]. {}
+[13/04/2023 - 04:07:41] info: Wallet Updated. {}
+[13/04/2023 - 04:09:02] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 04:09:08] info: <<<HELLO>>> admin. {}
+[13/04/2023 - 04:09:16] warn: UserController. {}
+[13/04/2023 - 04:09:16] warn: [object Object]. {}
+[13/04/2023 - 04:09:16] warn: UserService. {}
+[13/04/2023 - 04:09:16] warn: [object Object]. {}
+[13/04/2023 - 04:09:16] warn: 9767eb52-6ec1-4b66-bbfc-f6e596a580fa. {}
+[13/04/2023 - 04:09:16] warn: 8c526ae4-e5d2-443c-91a0-37ce942f8122. {}
+[13/04/2023 - 04:09:16] warn: [object SequelizeInstance:WalletPojo]. {}
+[13/04/2023 - 04:09:16] info: Wallet Updated. {}
+[13/04/2023 - 04:09:52] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}
+[13/04/2023 - 04:09:58] info: <<<HELLO>>> admin. {}
+[13/04/2023 - 04:10:06] warn: UserController. {}
+[13/04/2023 - 04:10:06] warn: [object Object]. {}
+[13/04/2023 - 04:10:06] warn: UserService. {}
+[13/04/2023 - 04:10:06] warn: [object Object]. {}
+[13/04/2023 - 04:10:06] warn: 9767eb52-6ec1-4b66-bbfc-f6e596a580fa. {}
+[13/04/2023 - 04:10:06] warn: 8c526ae4-e5d2-443c-91a0-37ce942f8122. {}
+[13/04/2023 - 04:10:06] warn: [object SequelizeInstance:WalletPojo]. {}
+[13/04/2023 - 04:10:06] info: Wallet Updated. {}
+[13/04/2023 - 04:11:31] info: ⚡️ [SERVER]: Server is running at http://localhost:5000 ⚡️. {}

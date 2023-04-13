@@ -17,7 +17,7 @@ export class UserRepository{
     async addUser(newUser : UserPojo) : Promise<string> {
         try {
             newUser = await this._userRepository.create(newUser)
-            return newUser.id            
+            return newUser.userId            
         } catch (error) {
             logger.error(error)
             return error.name
@@ -41,11 +41,32 @@ export class UserRepository{
             return undefined
         }
     }
-    
-    async getUserByUsername(username : string) : Promise<UserPojo | undefined>{
+
+    async getWalletById(userId : string, currencyId: string) : Promise<WalletPojo | undefined>{
         try {
-            return await this._userRepository.findAll({
-                where: {username: username}})
+            const result = this._walletRepository.findOne({
+                where: {
+                    userId: userId,
+                    currencyId: currencyId
+                }})
+                if (!!result) {                    
+                    return result                    
+                } else {
+                    return undefined
+                }
+        } catch (error) {
+            logger.error(error)
+            return undefined
+        }
+    }
+    
+    async getUserByUsernamePass(username : string, password: string) : Promise<UserPojo | undefined>{
+        try {
+            return await this._userRepository.findOne({
+                where: {
+                    username: username,
+                    password: password
+                }})
         } catch (error) {
             logger.error(error)
             return undefined
@@ -67,12 +88,15 @@ export class UserRepository{
     }    
 
     async updateWallet(walletToUpdate: WalletPojo) : Promise<string>{
+        logger.warn(walletToUpdate.userId)
+        logger.warn(walletToUpdate.currencyId)
         const result = await this._walletRepository.findOne({
             where: {
                 userId: walletToUpdate.userId,
                 currencyId: walletToUpdate.currencyId 
             }
         })
+        logger.warn(result)
         if (!!result) {
             this._walletRepository.update({
                 amount: walletToUpdate.amount
@@ -88,6 +112,7 @@ export class UserRepository{
             this._walletRepository.create(walletToUpdate)
             logger.info("Wallet Created")
             return "Created"
+            
         }
     }
 }

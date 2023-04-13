@@ -1,8 +1,9 @@
-import { NewUserDTO, NewWalletDTO, UserDTO } from "../types"
+import { NewUserDTO, NewWalletDTO, UserDTO, WalletDTO } from "../types"
 import { UserRepository } from "../data/repositories/user.repository"
 import { UserPojo } from "../data/models/user.model"
 import { WalletPojo } from "../data/models/wallet.model"
-import { parseUserDTOIntoPojo, parseUserPojoIntoDTO, parseWalletDTOIntoPojo } from "../utils/functions.utils"
+import { parseUserDTOIntoPojo, parseUserPojoIntoDTO, parseWalletDTOIntoPojo, parseWalletPojoIntoDTO } from "../utils/functions.utils"
+import logger from "../utils/logs.utils"
 
 export class UserService {
     _userRepository : UserRepository
@@ -51,8 +52,22 @@ export class UserService {
         return userPromise
     }
 
-    async getUserByName(username: string) : Promise<UserDTO | undefined> {
-        const userPromise = await this._userRepository.getUserByUsername(username).then(userAsPojo =>{
+    async getWalletById(userId: string, currencyId: string) : Promise<WalletDTO | undefined> {
+        const walletPromise = await this._userRepository.getWalletById(userId, currencyId).then(walletAsPojo =>{
+            if (!!walletAsPojo) {
+                return parseWalletPojoIntoDTO(walletAsPojo)
+            }else{
+                return undefined
+            }
+        }).catch(error =>{
+            console.error(error)
+            throw error            
+        })
+        return walletPromise
+    }
+
+    async getUserByUsernamePass(username: string, password: string) : Promise<UserDTO | undefined> {
+        const userPromise = await this._userRepository.getUserByUsernamePass(username, password).then(userAsPojo =>{
             if (!!userAsPojo) {
                 return parseUserPojoIntoDTO(userAsPojo)
             }else{
@@ -78,6 +93,8 @@ export class UserService {
 
     async updateWallet(walletUpdated: NewWalletDTO) : Promise<string> {
         const walletPojo : WalletPojo = parseWalletDTOIntoPojo(walletUpdated)
+        logger.warn("UserService")
+        logger.warn(walletUpdated)
         const walletPromise = await this._userRepository.updateWallet(walletPojo).then(walletId => {
             return walletId
         }).catch(error =>{

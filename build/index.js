@@ -12,8 +12,9 @@ dotenv_1.default.config();
 const app = (0, express_1.default)();
 const PORT = process.env.PORT;
 const cors = require('cors');
-const whitleList = ['http://localhost:4200'];
+const whitleList = ['http://localhost:4200', 'http://localhost:5000'];
 app.use(express_1.default.json());
+app.use(express_1.default.urlencoded({ extended: true }));
 app.use(cors({ origin: whitleList }));
 app.get('/ping', (_req, res) => {
     res.send('Pong!');

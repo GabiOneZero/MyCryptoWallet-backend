@@ -15,6 +15,10 @@ export const parseWalletDTOIntoPojo = (walletDTO : NewWalletDTO) : WalletPojo =>
     return walletDTO as WalletPojo
 }
 
+export const parseWalletPojoIntoDTO = (walletPojo : WalletPojo) : WalletDTO => {
+    return walletPojo as WalletDTO
+}
+
 export const parseInputWalletIntoDTO = (newWallet: any) : WalletDTO => {
         const newWalletDTO : WalletDTO = {
             userId: newWallet.userId,
