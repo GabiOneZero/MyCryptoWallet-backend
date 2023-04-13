@@ -22,3 +22,5 @@
 <p>GET - http://localhost:5000/api/currency/get/all</p>
 <p>GET - http://localhost:5000/api/currency/get/:id</p>
 <p>PUT - http://localhost:5000/api/currency/update</p>
+
+src/utils/thunder-collection_MCW.json
