@@ -23,4 +23,4 @@
 <p>GET - http://localhost:5000/api/currency/get/:id</p>
 <p>PUT - http://localhost:5000/api/currency/update</p>
 
-src/utils/thunder-collection_MCW.json
+https://github.com/GabiOneZero/MyCryptoWallet-backend/blob/ddf69ccb2907fb46d74c061b82b3549c5b8f27c2/src/utils/thunder-collection_MCW.json
